@@ -26,9 +26,11 @@ class AddFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_add, container, false)
-        //Set Menu
+
+        // Set Menu
         setHasOptionsMenu(true)
 
+        // Spinner Item Selected Listener
         view.priorities_spinner.onItemSelectedListener = mSharedViewModel.listener
 
         return view
@@ -39,20 +41,20 @@ class AddFragment : Fragment() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item.itemId == R.id.menu_add){
-            insertDataToDB()
+        if(item.itemId == R.id.menu_add){
+            insertDataToDb()
         }
         return super.onOptionsItemSelected(item)
     }
 
-    private fun insertDataToDB() {
+    private fun insertDataToDb() {
         val mTitle = title_et.text.toString()
         val mPriority = priorities_spinner.selectedItem.toString()
         val mDescription = description_et.text.toString()
 
         val validation = mSharedViewModel.verifyDataFromUser(mTitle, mDescription)
-        if (validation){
-            //Insertar datos en la BD
+        if(validation){
+            // Insert Data to Database
             val newData = ToDoData(
                 0,
                 mTitle,

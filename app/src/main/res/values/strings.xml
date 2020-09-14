@@ -13,6 +13,7 @@
     <string name="add">Add</string>
     <string name="save">Guardar</string>
     <string name="delete">Borrar</string>
+    <string name="content_description">Imagen para mostrar cuando no hay data</string>
 
     <string-array name="prioridades">
         <item>Prioridad Alta</item>
