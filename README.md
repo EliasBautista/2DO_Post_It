@@ -2,6 +2,13 @@
 
 _Este proyecto es una aplicación completamente funcional para organizar tareas en notas estilo "post it" usando kotlin como lenguaje de programación, siguiendo una estructura de código limpio y utilizando componentes de material design para su diseño_
 
+<br/>
+
+<p align="center">
+  <img width="100" height="100" src="https://raw.githubusercontent.com/EliasBautista/2DO_Post_It/master/assets/Logo%20-%20ToDo1.5.png">
+</p>
+<br/>
+
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
@@ -56,13 +63,35 @@ _El apk esta disponible para su descarga en dropbox_
 * [Apk](https://www.dropbox.com/s/hlnb5mtcdxfkrqq/app-release.apk?dl=0) - Aquí puedes descargar el apk (ToDoApp)
 
 ## Imágenes 📱
+<br/>
 
-![ToDoApp]()
-![ToDoApp]()
-![ToDoApp]()
-![ToDoApp]()
+_Interfaz de la aplicación_
+
+![ToDo App](https://raw.githubusercontent.com/EliasBautista/2DO_Post_It/master/assets/ToDoApp.jpg)
+
+<br/>
+
+_Busqueda de notas_
+
+![ToDo App](https://raw.githubusercontent.com/EliasBautista/2DO_Post_It/master/assets/ToDoApp%202.jpg)
+<br/>
+
+_Actualización de notas_
+<br/>
+
+![ToDo App](https://raw.githubusercontent.com/EliasBautista/2DO_Post_It/master/assets/ToDoApp%203.jpg)
+<br/>
+
+_Ordenar las notas por prioridad_
+<br/>
+
+![ToDo App](https://raw.githubusercontent.com/EliasBautista/2DO_Post_It/master/assets/ToDoApp%204.jpg)
 
 ## Autores ✒️
 
 
 * **Elias Bautista** - *Desarrollador* - [GitHub](https://github.com/EliasBautista)
+
+## Expresiones de Gratitud 🎁
+
+Gracias por ver este repositorio y probar la app!!
