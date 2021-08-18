@@ -12,15 +12,13 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="30dp"
+        android:padding="24dp"
         tools:context=".fragments.update.UpdateFragment">
 
         <EditText
             android:id="@+id/current_title_et"
             android:layout_width="0dp"
             android:layout_height="60dp"
-            android:layout_marginTop="50dp"
-            android:autofillHints="Titulo"
             android:background="@drawable/custom_input"
             android:ems="10"
             android:hint="@string/title"
@@ -39,7 +37,7 @@
             android:layout_height="60dp"
             android:layout_marginTop="8dp"
             android:background="@drawable/custom_input"
-            android:entries="@array/prioridades"
+            android:entries="@array/priorities"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             android:parsePriorityToInt="@{args.currentItem.priority}"
@@ -53,12 +51,10 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="40dp"
             android:background="@drawable/custom_input"
             android:ems="10"
             android:gravity="top|start"
             android:hint="@string/description"
-            android:autofillHints="Descripción"
             android:inputType="textMultiLine"
             android:paddingStart="24dp"
             android:paddingTop="16dp"

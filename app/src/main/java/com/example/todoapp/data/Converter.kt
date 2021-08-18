@@ -6,7 +6,7 @@ import com.example.todoapp.data.models.Priority
 class Converter {
 
     @TypeConverter
-    fun fromPriority(priority: Priority): String{
+    fun fromPriority(priority: Priority): String {
         return priority.name
     }
 
